@@ -13,7 +13,7 @@ The project intentionally avoids using a game engine. All mechanics, rendering, 
 
 ---
 
-## Images / Screenshots
+## Images 
 
 ![Game Screenshot](https://i.ibb.co.com/qMDfdzvQ/2.png)
 
