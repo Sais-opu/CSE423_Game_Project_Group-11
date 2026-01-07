@@ -12,6 +12,30 @@
 
 ---
 
+## Languages and Technologies Used
+
+This project is built using:
+
+### Python
+The entire game logic is implemented in Python.
+
+### PyOpenGL
+Used to render 3D graphics and handle drawing:
+
+- `OpenGL.GL` for rendering shapes and objects
+- `OpenGL.GLU` for camera and projection utilities
+- `OpenGL.GLUT` for window handling and simple 3D primitives
+
+Other Python modules used:
+
+- `math` for calculations
+- `random` for treasure and obstacle placement
+- `time` for timers, countdowns, and power-up durations
+
+The project does not use a game engine. All mechanics are implemented manually using OpenGL.
+
+---
+
 ## Game Overview
 
 The player moves around a 3D world, collecting normal and special treasures. Some treasures require a key. Random bricks fall from above, reducing health when hit. Special treasures provide temporary advantages such as extra time and health boosts.
@@ -57,14 +81,14 @@ When a special treasure is collected in cheat mode, brick falling stops for 5 se
 ## Win / Lose Conditions
 
 ### Win
-- Collect the required treasures
-- Stay alive until the end
-- Keep enough health and time to finish
+- Collect the required treasures  
+- Stay alive until the end  
+- Keep enough health and time to finish  
 
 ### Lose
-- Health reaches zero
-- Time runs out
-- Hit by falling obstacles too many times
+- Health reaches zero  
+- Time runs out  
+- Hit by falling obstacles too many times  
 
 ---
 
@@ -76,11 +100,11 @@ Players can restart the game after losing or winning and try again.
 
 ## Suggested Controls (adjust if different)
 
-- W / A / S / D – Move
-- Space – Jump
-- E – Interact / Collect
-- R – Restart
-- C – Toggle Cheat Mode
+- W / A / S / D – Move  
+- Space – Jump  
+- E – Interact / Collect  
+- R – Restart  
+- C – Toggle Cheat Mode  
 
 ---
 
